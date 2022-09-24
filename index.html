@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">  
+  <script src="https://kit.fontawesome.com/43ee7c2b22.js" crossorigin="anonymous"></script>
+  <title>Booking system</title>
+</head>
+<body>
+<header>
+  <h1>Movie Booking</h1>
+  <ul class="content"> 
+    <li class="selections"><i id="sq1" class="fa-solid fa-square fa-xl"></i>Occupied</li>
+    <li class="selections"><i id="sq2" class="fa-solid fa-square fa-xl"></i>Not Occupied<li>
+    <li class="selections"><i id="sq3" class="fa-solid fa-square fa-xl"></i>Selected</li>
+    
+  </ul>
+</header>
+<section class="screen">
+  Screen
+</section>
+<section class="seats">
+  <div class="left">
+    <div class="seat"><i id='seat-1'class="fa-solid fa-couch fa-xl" style="color:rgba(216, 228, 238, 0.879);"></i></div>
+    <div class="seat"><i id='seat'class="fa-solid fa-couch fa-xl" style="color: black;"></i></div>
+    <div class="seat"><i id='seat'class="fa-solid fa-couch fa-xl" style="color: black;"></i></div>
+    <div class="seat"><i id='seat'class="fa-solid fa-couch fa-xl" style="color: black;"></i></div>
+    <div class="seat"><i id='seat-5'class="fa-solid fa-couch fa-xl" style="color:rgba(216, 228, 238, 0.879);"></i></div>
+    <div class="seat"><i id='seat-9'class="fa-solid fa-couch fa-xl" style="color: black;"></i></div>
+    
+  </div>
+  <div class="left">
+    <div class="seat"><i id='seat-1'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat-2'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat-3'class="fa-solid fa-couch fa-xl"style="color:rgba(216, 228, 238, 0.879);"></i></div>
+    <div class="seat"><i id='seat-4'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat-5'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat-22'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+  </div>
+  
+  <div class="right">
+    <div class="seat"><i id='seat-1'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat-5'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat-61'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+  </div>
+  <div class="right">
+    <div class="seat"><i id='seat-1'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat-5'class="fa-solid fa-couch fa-xl"style="color: black;"></i></div>
+    <div class="seat"><i id='seat-6'class="fa-solid fa-couch fa-xl"style="color:rgba(216, 228, 238, 0.879);"></i></div>
+  </div>
+</section>
+<section class="price">
+<p id="price">Click to book your Tickets</p>
+<input class="btn btn-primary" type="button" value="Book Now" onclick="swa()" id="btn">
+
+</section>
+
+<!--Script-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://kit.fontawesome.com/43ee7c2b22.js" crossorigin="anonymous"></script>
+<script src="script.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
