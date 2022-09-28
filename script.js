@@ -55,7 +55,7 @@ btn.addEventListener('click',()=>{
     if (willDelete) {
       swal("Yayy! Your Booking are confirmed!", {
         icon: "success",
-      });
+      })
     } else {
       swal("Your Bookings are canceled!");
     }
